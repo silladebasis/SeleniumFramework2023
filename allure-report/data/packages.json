@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.E2ETest",
+    "children" : [ {
+      "name" : "validate_product_checkout_e2e",
+      "uid" : "38a8d20d1e4054f9",
+      "parentUid" : "77c43f7e6b8e88cc79fcb123467097c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702517561229,
+        "stop" : 1702517574652,
+        "duration" : 13423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "test_automation@gmail.com", "Automation@123" ]
+    } ],
+    "uid" : "tests.E2ETest"
+  } ]
+}

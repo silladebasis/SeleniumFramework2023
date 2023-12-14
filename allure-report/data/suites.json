@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "D:/Selenium/SeleniumFunda",
+      "children" : [ {
+        "name" : "tests.E2ETest",
+        "children" : [ {
+          "name" : "validate_product_checkout_e2e",
+          "uid" : "38a8d20d1e4054f9",
+          "parentUid" : "486feea327f2d16cfc3ff49645ae2d4b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702517561229,
+            "stop" : 1702517574652,
+            "duration" : 13423
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "test_automation@gmail.com", "Automation@123" ]
+        } ],
+        "uid" : "486feea327f2d16cfc3ff49645ae2d4b"
+      } ],
+      "uid" : "44f2412d0a5868e6502f6ec1b23bc34b"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}

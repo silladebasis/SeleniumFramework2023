@@ -1,0 +1,84 @@
+{
+  "uid" : "38a8d20d1e4054f9",
+  "name" : "validate_product_checkout_e2e",
+  "fullName" : "tests.E2ETest.validate_product_checkout_e2e",
+  "historyId" : "82c4dff0eb46099c4271175b521b7569",
+  "time" : {
+    "start" : 1702517561229,
+    "stop" : 1702517574652,
+    "duration" : 13423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1702517557831,
+      "stop" : 1702517561161,
+      "duration" : 3330
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.E2ETest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.E2ETest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_product_checkout_e2e"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "D:/Selenium/SeleniumFunda"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.E2ETest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B50K3QI"
+  }, {
+    "name" : "thread",
+    "value" : "23692@DESKTOP-B50K3QI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "test_automation@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "Automation@123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38a8d20d1e4054f9.json",
+  "parameterValues" : [ "test_automation@gmail.com", "Automation@123" ]
+}

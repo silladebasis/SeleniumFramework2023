@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "validate_product_checkout_e2e",
+    "uid" : "38a8d20d1e4054f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1702517561229,
+      "stop" : 1702517574652,
+      "duration" : 13423
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "test_automation@gmail.com", "Automation@123" ]
+  } ]
+}

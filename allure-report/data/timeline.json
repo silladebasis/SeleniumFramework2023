@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-B50K3QI",
+    "children" : [ {
+      "name" : "23692@DESKTOP-B50K3QI.main(1)",
+      "children" : [ {
+        "name" : "validate_product_checkout_e2e",
+        "uid" : "38a8d20d1e4054f9",
+        "parentUid" : "a435cb201929474c431f82bb23db3cfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702517561229,
+          "stop" : 1702517574652,
+          "duration" : 13423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "test_automation@gmail.com", "Automation@123" ]
+      } ],
+      "uid" : "a435cb201929474c431f82bb23db3cfe"
+    } ],
+    "uid" : "6386ffb04e6bafaf182135bc7f52f0c0"
+  } ]
+}

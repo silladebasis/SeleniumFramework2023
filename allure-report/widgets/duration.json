@@ -1,0 +1,11 @@
+[ {
+  "uid" : "38a8d20d1e4054f9",
+  "name" : "validate_product_checkout_e2e",
+  "time" : {
+    "start" : 1702517561229,
+    "stop" : 1702517574652,
+    "duration" : 13423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
