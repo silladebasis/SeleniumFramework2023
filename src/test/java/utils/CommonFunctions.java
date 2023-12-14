@@ -1,9 +1,9 @@
 package utils;
 
-import driver.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.io.FileHandler;
@@ -24,6 +24,9 @@ public class CommonFunctions {
     public static void clickElement(By locator){
         waitForElement(locator);
         getDriver().findElement(locator).click();
+    }
+    public static WebElement getElement(By locator){
+        return getDriver().findElement(locator);
     }
     public static void enterText(By locator,String text){
         waitForElement(locator);

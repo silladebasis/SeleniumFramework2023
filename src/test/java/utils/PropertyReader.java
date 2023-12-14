@@ -8,7 +8,7 @@ import java.util.Properties;
 public class PropertyReader {
     protected static Properties properties;
     protected static FileInputStream fileInputStream;
-    public static Properties getProperty(){
+    private static Properties getProperty(){
         properties = new Properties();
         try{
             fileInputStream = new FileInputStream(System.getProperty("user.dir")+ "/src/test/resources/config.properties");
@@ -21,6 +21,9 @@ public class PropertyReader {
 
     public static String getBaseURL(){
         return getProperty().getProperty("url");
+    }
+    public static String getBrowserName(){
+        return getProperty().getProperty("browser");
     }
 }
 
